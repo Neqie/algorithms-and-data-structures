@@ -1,0 +1,12 @@
+# Настройки Visual Studio
+.vs/
+
+# Результаты сборки (бинарники и кэш)
+x64/
+x86/
+Debug/
+Release/
+*.exe
+*.obj
+*.pdb
+*.user
