@@ -12,7 +12,6 @@
 |---|---|---|---|
 | **1** | **TString** | Пользовательский класс динамической строки с поддержкой управления памятью и перегрузкой операторов | [Перейти к TString](./TString) |
 | **2** | **Sorting and Searching algorithms** | Учебная программа по работе с алгоритмами сортировок и поиска в массиве | [Перейти к SortingAndSearchingAlgorithms](./SortingAndSearchingAlgorithms) |
-| 
 
 ---
 
