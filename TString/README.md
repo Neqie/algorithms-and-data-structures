@@ -2,9 +2,9 @@
 Реализация пользовательского класса динамической строки на C++, использующая ручное управление памятью и поддерживающая перегрузку базовых операторов C++.  
 Разработан в учебных целях для демонстрации работы с динамической памятью, конструкторами и деструкторами, правилом трех и перегрузкой операторов.  
 Цель - понять устройство стандартного контейнера `string` и отработать навыки программирования.  
-![C++](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
-
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![C++](https://img.shields.io/badge/C%2B%2B-17-blue.svg)  
+![License](https://img.shields.io/badge/license-MIT-green.svg)  
+[![CMake](https://img.shields.io/badge/Build-CMake-green.svg)](https://cmake.org/)  
 
 ---
 
@@ -63,5 +63,15 @@ g++ TString.cpp main.cpp -o tstring.exe
 ### Visual Studio
 1. Откройте файл решения .sln в Visual Studio
 2. Нажмите `F5` для запуска с отладкой (`Ctrl+F5` без отладки)
+
+*UPD. Сборка через CMake*  
+В папке проекта, где лежит CMakeLists.txt:
+```bash
+mkdir build
+cd build
+cmake ..
+cmake --build .
+```
+
 
 ---
